@@ -1,0 +1,748 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: url("/image/about/teams/hero.jpg") no-repeat center center/cover;
+  height: 70vh;
+  position: sticky;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 72px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.084);
+  align-items: center;
+  color: white;
+}
+
+.nav-left img {
+  width: 120px;
+  height: 40px;
+}
+
+.nav-left {
+  display: flex;
+  padding-left: 40px;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-left ul li {
+  margin: 10px;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16.4px;
+  position: relative;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right ul {
+  display: flex;
+  list-style: none;
+  padding-right: 50px;
+}
+
+.nav-right ul li {
+  margin: 10px;
+}
+
+.nav-right ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16.4px;
+}
+
+#container {
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+}
+
+.container-img img {
+  width: 750px;
+  height: 400px;
+}
+
+.container-content {
+  padding: 100px;
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: #0084D6;
+}
+
+.container-content h1 {
+  font-size: 46px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-content p {
+  line-height: 1.5;
+}
+
+#team {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.line2 {
+  margin-left: 46%;
+}
+
+.team-word {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team h1 {
+  font-size: 52px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 70px;
+}
+
+.team-box {
+  height: 230px;
+  width: 230px;
+  background-color: aliceblue;
+  margin: 10px;
+}
+
+.team-box img {
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+.follow {
+  background: url("/about/1.avif") no-repeat top center/cover;
+  height: 70vh;
+}
+
+.line3 {
+  margin-left: 20%;
+}
+
+.follow-box {
+  height: 70vh;
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.follow-box h1 {
+  font-size: 48px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.share-icons-2 i {
+  margin: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.share-icons-2 i:hover {
+  color: #0084D6;
+}
+
+.our-specility {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.our-specility i {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.our-specility p {
+  line-height: 2;
+  padding: 15px;
+}
+
+.discount {
+  background-color: aliceblue;
+  height: 120px;
+  align-content: center;
+  text-align: center;
+}
+
+.discount a {
+  text-decoration: none;
+  color: black;
+}
+
+.discount a:hover {
+  color: #0084D6;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 140px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-logo img {
+  width: 140px;
+  height: 40px;
+}
+
+.footer-logo {
+  width: 200%;
+  margin-right: 380px;
+}
+
+.footer-logo h2 {
+  margin-top: 30px;
+}
+
+.heading h1 {
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.heading ul li {
+  list-style: none;
+  line-height: 2;
+}
+
+.heading ul li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+.heading ul li a:hover {
+  color: #0084D6;
+}
+
+#email {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.heading a button {
+  padding: 10px 30px 10px 30px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #0084D6;
+  border: transparent;
+  color: white;
+}
+
+.heading a button:hover {
+  background-color: #0699f5;
+}
+
+.copyright {
+  height: 100px;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.share-icons i {
+  margin: 5px;
+  font-size: 17px;
+}
+
+.share-icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.share-icons a:hover {
+  color: #0699f5;
+}
+
+#click {
+  display: none;
+}
+
+.navbar label {
+  display: none;
+}
+
+.mobile-view-list {
+  display: none;
+}
+
+.mobile-view-list li a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .our-specility {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+  }
+  .our-specility {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+  }
+  .container-img img {
+    width: 400px;
+    height: 400px;
+  }
+  .container-content {
+    padding: 10px 10px 10px 10px;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+  }
+  .follow-box {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar label {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    display: none;
+    z-index: 5;
+    padding-right: 0px;
+  }
+  .navbar ul li a {
+    color: black;
+    width: 100%;
+  }
+  .navbar ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  .mobile-view-list ul li a i {
+    font-size: 40px;
+  }
+  .navbar ul li a:hover {
+    color: #0699f5;
+    width: 100%;
+  }
+  #click:checked ~ .navbar ul {
+    display: block;
+  }
+  .our-specility {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+  }
+  .container-img img {
+    width: 400px;
+    height: 400px;
+  }
+  .container-content {
+    padding: 10px 10px 10px 10px;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+  }
+  .follow-box {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar label {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    display: none;
+    z-index: 5;
+    padding-right: 0px;
+  }
+  .navbar ul li a {
+    color: black;
+    width: 100%;
+  }
+  .navbar ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  .mobile-view-list ul li a i {
+    font-size: 40px;
+  }
+  .navbar ul li a:hover {
+    color: #0699f5;
+    width: 100%;
+  }
+  #click:checked ~ .navbar ul {
+    display: block;
+  }
+  .our-specility {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+  }
+  .container-img img {
+    width: 400px;
+    height: 400px;
+  }
+  .container-content {
+    padding: 10px 10px 10px 10px;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+  }
+  .follow-box {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 712px) {
+  .navbar label {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    display: none;
+    z-index: 5;
+    padding-right: 0px;
+  }
+  .navbar ul li a {
+    color: black;
+    width: 100%;
+  }
+  .navbar ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  .mobile-view-list ul li a i {
+    font-size: 40px;
+  }
+  .navbar ul li a:hover {
+    color: #0699f5;
+    width: 100%;
+  }
+  #click:checked ~ .navbar ul {
+    display: block;
+  }
+  .our-specility {
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+  }
+  .container-img img {
+    width: 400px;
+    height: 400px;
+  }
+  .container-content {
+    padding: 10px 10px 10px 10px;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+    justify-items: center;
+  }
+  .follow-box {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar label {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    display: none;
+    z-index: 5;
+    padding-right: 0px;
+  }
+  .navbar ul li a {
+    color: black;
+    width: 100%;
+  }
+  .navbar ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  .mobile-view-list ul li a i {
+    font-size: 40px;
+  }
+  .navbar ul li a:hover {
+    color: #0699f5;
+    width: 100%;
+  }
+  #click:checked ~ .navbar ul {
+    display: block;
+  }
+  .line2 {
+    margin-left: 40%;
+  }
+  .our-specility {
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+  }
+  .container-img img {
+    width: 400px;
+    height: 400px;
+  }
+  .container-content {
+    padding: 10px 10px 10px 10px;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+    justify-items: center;
+  }
+  .follow-box {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-right: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */
