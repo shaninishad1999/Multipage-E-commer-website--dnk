@@ -7,6 +7,13 @@
 }
 
 // navbar start
+header {
+    background: url(/image/pexels-jmendezrf-1536619.jpg)no-repeat center center/cover;
+    height: 100vh;
+    position: sticky;
+    z-index: 8;
+
+}
 
 .navbar {
     display: flex;
@@ -14,6 +21,8 @@
     height: 100px;
     background-color: rgba(0, 0, 0, 0.145);
     align-items: center;
+
+
 }
 
 .nav-left img {
@@ -78,6 +87,8 @@
     align-content: center;
     height: 90vh;
     padding-left: 100px;
+
+
 }
 
 .hero-content h1 {
@@ -91,10 +102,21 @@
     font-size: 20px;
 }
 
-.hero-content button {
+.hero-content a button {
     padding: 10px 40px 10px 40px;
     cursor: pointer;
     margin: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+
+
+}
+
+.hero-content a button:hover {
+    background-color: #0699f5;
+    color: white;
+
+
 }
 
 #banner {
@@ -629,13 +651,13 @@ del {
 
 
 // max-width 768px
-@media screen and (min-width:900px)  and (max-width:1400px){
+@media screen and (min-width:900px) and (max-width:1400px) {
 
-
-    .hero {
-        height: 100vh;
-        padding-left: 20px;
+    .img-box-3{
+        grid-column: 1 / span 2;
     }
+
+  
 
     .hero-content {
         width: 200%;
@@ -654,7 +676,8 @@ del {
         justify-items: center;
 
     }
-    .img-box-3{
+
+    .img-box-3 {
         columns: 1 / span 2;
     }
 
@@ -783,6 +806,10 @@ del {
 
 // max-width 768px
 @media screen and (max-width:900px) {
+   
+    .img-box-3{
+        grid-column: 1 / span 2;
+    }
 
     // navbar start
     .navbar label {
@@ -829,7 +856,7 @@ del {
         display: block;
     }
 
-// navbar close
+    // navbar close
 
     .hero {
         height: 100vh;
@@ -853,7 +880,8 @@ del {
         justify-items: center;
 
     }
-    .img-box-3{
+
+    .img-box-3 {
         columns: 1 / span 2;
     }
 
@@ -982,6 +1010,31 @@ del {
 // max-width 768px
 @media screen and (max-width:768px) {
 
+    .img-box-3{
+        grid-column: 1 / span 2;
+    }
+    
+.img-box-1 {
+    background: url(/image/banner/1.jpg) no-repeat center center/cover;
+    width: 300px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-2 {
+    background: url(/image/banner/2.jpg) no-repeat center center/cover;
+    width: 290px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-3 {
+    background: url(/image/banner/3.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
     // navbar start
 
     .navbar label {
@@ -1028,7 +1081,7 @@ del {
         display: block;
     }
 
-// navbar close
+    // navbar close
 
     .hero {
         height: 100vh;
@@ -1179,6 +1232,32 @@ del {
 
 @media screen and (min-width:500px) and (max-width:712px) {
 
+    
+    .img-box-3{
+        grid-column: 1 / span 1;
+    }
+    
+.img-box-1 {
+    background: url(/image/banner/1.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-2 {
+    background: url(/image/banner/2.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-3 {
+    background: url(/image/banner/3.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
     // navbar start
     .navbar label {
         display: block;
@@ -1224,7 +1303,7 @@ del {
         display: block;
     }
 
-// navbar close
+    // navbar close
 
     .hero {
         height: 100vh;
@@ -1343,10 +1422,12 @@ del {
         color: white;
         background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
-.offer-content{
-    padding-left: 10px;
-    width: 100%;
-}
+
+    .offer-content {
+        padding-left: 10px;
+        width: 100%;
+    }
+
     .our-specility {
         grid-template-columns: repeat(1, 1fr);
         align-content: center;
@@ -1380,6 +1461,38 @@ del {
 
 // max-width 500px
 @media screen and (max-width:500px) {
+    .img-box-3{
+        grid-column: 1 / span 1;
+    }
+    
+.img-box-1 {
+    background: url(/image/banner/1.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-2 {
+    background: url(/image/banner/2.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+
+.img-box-3 {
+    background: url(/image/banner/3.jpg) no-repeat center center/cover;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+}
+    
+    header {
+        background: url(/image/pexels-jmendezrf-1536619.jpg)no-repeat center center/cover;
+        height: 100vh;
+        position: sticky;
+        z-index: 8;
+
+    }
 
     // navbar start
     .navbar label {
@@ -1387,6 +1500,9 @@ del {
         text-align: right;
         padding-right: 30px;
         font-size: 20px;
+        position: relative;
+        z-index: -9;
+
     }
 
     .navbar ul {
@@ -1425,20 +1541,18 @@ del {
     #click:checked~.navbar ul {
         display: block;
     }
-// navbar close
+
+    // navbar close
 
 
-    .hero {
-        height: 100vh;
-        padding-left: 20px;
-    }
+
 
     .hero-content {
         width: 200%;
     }
 
     .hero-content h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .img-container {
@@ -1545,10 +1659,12 @@ del {
         color: white;
         background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
-.offer-content{
-    padding-left: 10px;
-    width: 100%;
-}
+
+    .offer-content {
+        padding-left: 10px;
+        width: 100%;
+    }
+
     .our-specility {
         grid-template-columns: repeat(1, 1fr);
         align-content: center;
