@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - Brandstore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <input type="checkbox" id="click">
+    <nav class="navbar">
+        <div class="nav-left"><img src="/image/logo.png" alt="">
+            <ul>
+                <li><a href="#">EVERYTHING</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">$0.00</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+
+        </div>
+
+        <label for="click">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <!-- mobile view -->
+
+        <ul class="mobile-view-list">
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#">EVERYTHING</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#"> </a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <!-- mobile view close -->
+    </nav>
+
+    <!-- navbar close -->
+
+    <section class="product">
+        <div class="left-sidebar">
+
+            <div class="search">
+                <input type="text" id="search" placeholder="Search Products...">
+                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+
+            </div>
+            <div class="filter">
+                <h1>Filter by Price</h1>
+                <progress id="file" value="50" max="100">50% </progress>50%
+                <div class="btn-price">
+                    <a href="#"><button>FILTER</button></a>
+                    <P>Price: $20 — $290</P>
+                </div>
+            </div>
+            <div class="categories">
+                <h1>Categories</h1>
+                <div class="categories-1">
+                    <p><a href="#">Accessories</a></p>
+                    <p>(7)</p>
+                </div>
+                <div class="categories-2">
+                    <p><a href="#">Men</a></p>
+                    <p>(14)</p>
+                </div>
+                <div class="categories-2">
+                    <p><a href="#">Women</a></p>
+                    <p>(17)</p>
+                </div>
+            </div>
+            <div class="best-seller">
+                <h1>Our Best Sellers</h1>
+                <div class="best-seller-1">
+                    <img src="/image/best-seller/1.jpg" alt="">
+                    <div class="seller-item">
+                        <p><a href="#">Gray Pattern Tshirt</a></p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$30.00 – $34.00</p>
+                    </div>
+                </div>
+                <div class="best-seller-1">
+                    <img src="/image/best-seller/2.jpg" alt="">
+                    <div class="seller-item">
+                        <p><a href="#">Gray Pattern Tshirt</a></p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$30.00 – $34.00</p>
+                    </div>
+                </div>
+                <div class="best-seller-1">
+                    <img src="/image/best-seller/3.jpg" alt="">
+                    <div class="seller-item">
+                        <p><a href="#">Gray Pattern Tshirt</a></p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$30.00 – $34.00</p>
+                    </div>
+                </div>
+                <div class="best-seller-1">
+                    <img src="/image/best-seller/4.jpg" alt="">
+                    <div class="seller-item">
+                        <p><a href="#">Gray Pattern Tshirt</a></p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$30.00 – $34.00</p>
+                    </div>
+                </div>
+                <div class="best-seller-1">
+                    <img src="/image/best-seller/5.jpg" alt="">
+                    <div class="seller-item">
+                        <p><a href="#">Gray Pattern Tshirt</a></p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$30.00 – $34.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-bar">
+            <div class="home-store">
+                <p><a href="#">Home</a> / Store</p>
+            </div>
+            <div class="showing-result">
+                <p>Showing 1–12 of 31 results</p>
+                <select name="fashion" id="fashion">
+                    <option value="Default sorting">Default sorting</option>
+                    <option value="Sort by Popularity">Sort by Popularity</option>
+                    <option value="Sort by average rating">Sort by average rating</option>
+                    <option value="Sort by letest">Sort by letest</option>
+                    <option value="Sort by Price:Low to High">Sort by Price:Low to Hig</option>
+                    <option value="Sort by Price:High to Low"> Sort by Price:High to Low</option>
+                </select>
+            </div>
+            <div class="featured-products">
+
+                <!-- 1 -->
+                <div class="products-head">
+                    <div class="products-1 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 1 close -->
+                <!-- 2 -->
+                <div class="products-head">
+                    <div class="products-2 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 2 close -->
+                <!-- 3 -->
+                <div class="products-head">
+                    <div class="products-3 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 3 close -->
+                <!-- 4 -->
+                <div class="products-head">
+                    <div class="products-4 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 4 close -->
+                <!-- 5 -->
+                <div class="products-head">
+                    <div class="products-5 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 5 close -->
+                <!-- 6 -->
+                <div class="products-head">
+                    <div class="products-6 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 6 close -->
+                <!-- 7 -->
+                <div class="products-head">
+                    <div class="products-7 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 7 close -->
+                <!-- 8 -->
+                <div class="products-head">
+                    <div class="products-8 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 8 close -->
+                <!-- 9 -->
+                <div class="products-head">
+                    <div class="products-9 box">
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <!-- 9 close -->
+                <!-- 10 -->
+                <div class="products-head">
+
+                    <div class="products-10 box">
+
+                        <a href="#"><button>Sale!</button></a>
+                        <div class="cart-icons">
+                            <a href="#"><sup>Add to cart</sup>&nbsp;&nbsp;
+                                <button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                        </div>
+                    </div>
+
+                    <h1 class="cloth-name">DNK Yellow Shoes</h1>
+                    <p class="men">Men</p>
+                    <p><del>$150.00 </del><b>$120.00</b></p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <!-- 10 close -->
+
+
+            </div>
+            <div class="number-container">
+                <a href="#">
+                    <div class="item">1</div>
+                </a>
+                <a href="#">
+                    <div class="item">2</div>
+                </a>
+                <a href="#">
+                    <div class="item">3</div>
+                </a>
+                <a href="#">
+                    <div class="item"><i class="fa-solid fa-arrow-right"></i></div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- product section close -->
+
+
+
+
+
+
+
+
+    <!-- discount -->
+    <section class="discount">
+        <a href="#">
+            <h1>SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
+        </a>
+    </section>
+
+
+
+    <!-- footer section -->
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo heading">
+                <img src="/image/logo.png" alt="">
+                <h2>The best look anytime, anywhere.</h2>
+            </div>
+            <div class="heading">
+                <h1>For Her</h1>
+                <ul>
+                    <li><a href="#">Women Jeans</a></li>
+                    <li><a href="#">Tops and Shirts</a></li>
+                    <li><a href="#">Women Jackets</a></li>
+                    <li><a href="#">Heels and Flats</a></li>
+                    <li><a href="#">Women Accessories</a></li>
+                </ul>
+            </div>
+            <div class="heading">
+                <h1>For Him</h1>
+                <ul>
+                    <li><a href="#">Men Jeans</a></li>
+                    <li><a href="#">Men Shirts</a></li>
+                    <li><a href="#">Men Shoes</a></li>
+                    <li><a href="#">Men Accessories</a></li>
+                    <li><a href="#">Men Jackets</a></li>
+                </ul>
+            </div>
+            <div class="heading">
+                <h1>Subscribe</h1>
+                <input type="email" name="" id="email" placeholder="Your email address">
+                <a href="#"><button>SUBSCRIBE</button></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Brandstore. Powered by Brandstore.</p>
+            <div class="share-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-slack"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- footer close -->
+</body>
+
+</html>
