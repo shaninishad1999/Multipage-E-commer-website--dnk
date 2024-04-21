@@ -526,6 +526,32 @@ del {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1400px) {
+  .product {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featured-products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .home-bar {
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  .left-sidebar {
+    width: 90%;
+  }
+  .search i {
+    border: transparent;
+    padding: 15px;
+    background-color: #0084D6;
+    color: white;
+  }
   .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -576,6 +602,37 @@ del {
   }
   #click:checked ~ .navbar ul {
     display: block;
+  }
+  .home-bar {
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+  }
+  .left-sidebar {
+    width: 90%;
+  }
+  .search i {
+    border: transparent;
+    padding: 15px;
+    background-color: #0084D6;
+    color: white;
+  }
+  .product {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+  .featured-products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    justify-items: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .footer {
     display: grid;
@@ -631,11 +688,21 @@ del {
   .home-bar {
     margin-right: 0px;
   }
+  .left-sidebar {
+    width: 90%;
+  }
+  .search i {
+    border: transparent;
+    padding: 15px;
+    background-color: #0084D6;
+    color: white;
+  }
   .product {
     padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    justify-items: left;
+    justify-items: center;
+    gap: 10px;
   }
   .featured-products {
     grid-template-columns: repeat(2, 1fr);
@@ -697,8 +764,24 @@ del {
   #click:checked ~ .navbar ul {
     display: block;
   }
-  .featured-products {
+  .left-sidebar {
+    width: 90%;
+  }
+  .search i {
+    border: transparent;
+    padding: 15px;
+    background-color: #0084D6;
+    color: white;
+  }
+  .product {
+    padding-top: 100px;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+  .featured-products {
+    grid-template-columns: repeat(2, 1fr);
     gap: 0px;
     justify-items: center;
     margin-bottom: 20px;
@@ -756,6 +839,12 @@ del {
   }
   #click:checked ~ .navbar ul {
     display: block;
+  }
+  .product {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
   .featured-products {
     grid-template-columns: repeat(1, 1fr);
