@@ -79,7 +79,6 @@ body {
 
 
 
-.product-cart {}
 
 .product-cart-container {
     display: grid;
@@ -188,6 +187,7 @@ input[type=number],select{
     background-color: #0699f5;
     color: white;
     border: transparent;
+    cursor: pointer;
 }
 .ctg-back p a{
     text-decoration: none;
