@@ -392,7 +392,7 @@ del {
 }
 
 .offer-img img {
-  max-width: 100%;
+  height: 400px;
 }
 
 .offer-content {
@@ -425,6 +425,10 @@ del {
 
 .offer-content button {
   padding: 10px 30px 10px 30px;
+  outline: none;
+  border: transparent;
+  cursor: pointer;
+  font-size: 17px;
 }
 
 .our-specility {
