@@ -291,8 +291,12 @@ header {
     background: url(/image/Featured-Products/shoose\ 1.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
+
 
 .box {
     display: flex;
@@ -316,7 +320,7 @@ header {
 
 .cart-icons {
     display: none;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
 
 .cart-icons a {
@@ -328,6 +332,7 @@ header {
 
 .products-1:hover .cart-icons {
     display: block;
+
 }
 
 .products-2:hover .cart-icons {
@@ -365,6 +370,36 @@ header {
 .products-10:hover .cart-icons {
     display: block;
 }
+
+
+
+.cart-name {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    display: none;
+
+
+}
+
+.cart-name a {
+    text-decoration: none;
+    color: black;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.cart-icons:hover .cart-name a{
+    display: block;
+
+}
+
+
+
 
 .men {
     opacity: 0.5;
@@ -657,11 +692,11 @@ del {
 // max-width 768px
 @media screen and (min-width:900px) and (max-width:1400px) {
 
-    .img-box-3{
+    .img-box-3 {
         grid-column: 1 / span 2;
     }
 
-  
+
 
     .hero-content {
         width: 200%;
@@ -810,8 +845,8 @@ del {
 
 // max-width 768px
 @media screen and (max-width:900px) {
-   
-    .img-box-3{
+
+    .img-box-3 {
         grid-column: 1 / span 2;
     }
 
@@ -1014,30 +1049,30 @@ del {
 // max-width 768px
 @media screen and (max-width:768px) {
 
-    .img-box-3{
+    .img-box-3 {
         grid-column: 1 / span 2;
     }
-    
-.img-box-1 {
-    background: url(/image/banner/1.jpg) no-repeat center center/cover;
-    width: 300px;
-    height: 480px;
-    margin: 10px;
-}
 
-.img-box-2 {
-    background: url(/image/banner/2.jpg) no-repeat center center/cover;
-    width: 290px;
-    height: 480px;
-    margin: 10px;
-}
+    .img-box-1 {
+        background: url(/image/banner/1.jpg) no-repeat center center/cover;
+        width: 300px;
+        height: 480px;
+        margin: 10px;
+    }
 
-.img-box-3 {
-    background: url(/image/banner/3.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
+    .img-box-2 {
+        background: url(/image/banner/2.jpg) no-repeat center center/cover;
+        width: 290px;
+        height: 480px;
+        margin: 10px;
+    }
+
+    .img-box-3 {
+        background: url(/image/banner/3.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
 
     // navbar start
 
@@ -1236,31 +1271,31 @@ del {
 
 @media screen and (min-width:500px) and (max-width:712px) {
 
-    
-    .img-box-3{
+
+    .img-box-3 {
         grid-column: 1 / span 1;
     }
-    
-.img-box-1 {
-    background: url(/image/banner/1.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
 
-.img-box-2 {
-    background: url(/image/banner/2.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
+    .img-box-1 {
+        background: url(/image/banner/1.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
 
-.img-box-3 {
-    background: url(/image/banner/3.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
+    .img-box-2 {
+        background: url(/image/banner/2.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
+
+    .img-box-3 {
+        background: url(/image/banner/3.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
 
     // navbar start
     .navbar label {
@@ -1465,31 +1500,31 @@ del {
 
 // max-width 500px
 @media screen and (max-width:500px) {
-    .img-box-3{
+    .img-box-3 {
         grid-column: 1 / span 1;
     }
-    
-.img-box-1 {
-    background: url(/image/banner/1.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
 
-.img-box-2 {
-    background: url(/image/banner/2.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
+    .img-box-1 {
+        background: url(/image/banner/1.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
 
-.img-box-3 {
-    background: url(/image/banner/3.jpg) no-repeat center center/cover;
-    width: 380px;
-    height: 480px;
-    margin: 10px;
-}
-    
+    .img-box-2 {
+        background: url(/image/banner/2.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
+
+    .img-box-3 {
+        background: url(/image/banner/3.jpg) no-repeat center center/cover;
+        width: 380px;
+        height: 480px;
+        margin: 10px;
+    }
+
     header {
         background: url(/image/pexels-jmendezrf-1536619.jpg)no-repeat center center/cover;
         height: 100vh;

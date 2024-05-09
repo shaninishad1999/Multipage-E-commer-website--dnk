@@ -242,6 +242,9 @@ header {
   background: url(/image/Featured-Products/shoose\ 1.jpg) no-repeat center center/cover;
   width: 250px;
   height: 250px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .box {
@@ -263,7 +266,6 @@ header {
 
 .cart-icons {
   display: none;
-  padding-left: 20px;
 }
 
 .cart-icons a {
@@ -309,6 +311,28 @@ header {
 }
 
 .products-10:hover .cart-icons {
+  display: block;
+}
+
+.cart-name {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+  display: none;
+}
+
+.cart-name a {
+  text-decoration: none;
+  color: black;
+  background-color: black;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.cart-icons:hover .cart-name a {
   display: block;
 }
 
