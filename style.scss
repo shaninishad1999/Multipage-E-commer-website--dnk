@@ -393,7 +393,7 @@ header {
     color: white;
 }
 
-.cart-icons:hover .cart-name a{
+.cart-icons:hover .cart-name a {
     display: block;
 
 }
@@ -474,7 +474,12 @@ del {
 
 #offer {
     // background-color: rgb(10, 116, 182);
-
+position: relative;
+    background-image: url('/image/parallex.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
     margin-left: 70px;
     margin-right: 70px;
     padding-bottom: 30px;
@@ -483,7 +488,7 @@ del {
     --background-overlay: '';
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+    // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
 }
 
 .offer-img img {
@@ -689,6 +694,7 @@ del {
 
 
 
+
 // max-width 768px
 @media screen and (min-width:900px) and (max-width:1400px) {
 
@@ -804,7 +810,7 @@ del {
         --background-overlay: '';
         background-color: transparent;
         color: white;
-        background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+        // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
 
     .our-specility {
@@ -1008,7 +1014,7 @@ del {
         --background-overlay: '';
         background-color: transparent;
         color: white;
-        background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+        // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
 
     .our-specility {
@@ -1048,6 +1054,10 @@ del {
 
 // max-width 768px
 @media screen and (max-width:768px) {
+
+    .offer-img img {
+        height: auto;
+    }
 
     .img-box-3 {
         grid-column: 1 / span 2;
@@ -1230,7 +1240,7 @@ del {
         --background-overlay: '';
         background-color: transparent;
         color: white;
-        background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+        // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
 
     .our-specility {
@@ -1459,7 +1469,7 @@ del {
         --background-overlay: '';
         background-color: transparent;
         color: white;
-        background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+        // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
 
     .offer-content {
@@ -1696,7 +1706,7 @@ del {
         --background-overlay: '';
         background-color: transparent;
         color: white;
-        background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
+        // background-image: linear-gradient(100deg, #0084D6 0%, #00000000 100%);
     }
 
     .offer-content {

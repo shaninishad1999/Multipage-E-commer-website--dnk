@@ -404,6 +404,12 @@ del {
 }
 
 #offer {
+  position: relative;
+  background-image: url("/image/parallex.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
   margin-left: 70px;
   margin-right: 70px;
   padding-bottom: 30px;
@@ -412,7 +418,6 @@ del {
   --background-overlay: "";
   background-color: transparent;
   color: white;
-  background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .offer-img img {
@@ -687,7 +692,6 @@ del {
     --background-overlay: "";
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
   }
   .our-specility {
     display: grid;
@@ -843,7 +847,6 @@ del {
     --background-overlay: "";
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
   }
   .our-specility {
     display: grid;
@@ -870,6 +873,9 @@ del {
   }
 }
 @media screen and (max-width: 768px) {
+  .offer-img img {
+    height: auto;
+  }
   .img-box-3 {
     grid-column: 1/span 2;
   }
@@ -1014,7 +1020,6 @@ del {
     --background-overlay: "";
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
   }
   .our-specility {
     display: grid;
@@ -1191,7 +1196,6 @@ del {
     --background-overlay: "";
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
   }
   .offer-content {
     padding-left: 10px;
@@ -1375,7 +1379,6 @@ del {
     --background-overlay: "";
     background-color: transparent;
     color: white;
-    background-image: linear-gradient(100deg, #0084D6 0%, rgba(0, 0, 0, 0) 100%);
   }
   .offer-content {
     padding-left: 10px;
