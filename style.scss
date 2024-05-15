@@ -298,6 +298,32 @@ header {
 }
 
 
+.cart-name {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    display: none;
+
+
+}
+
+.cart-name a {
+    text-decoration: none;
+    color: black;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.cart-icons a button i:hover .cart-name {
+    display: block;
+}
+
+
+
 .box {
     display: flex;
     // justify-content: space-around;
@@ -321,7 +347,9 @@ header {
 .cart-icons {
     display: none;
     // padding-left: 20px;
+
 }
+
 
 .cart-icons a {
     text-decoration: none;
@@ -373,30 +401,8 @@ header {
 
 
 
-.cart-name {
-    margin-top: 20px;
-    padding-left: 20px;
-    font-size: 12px;
-    display: none;
 
 
-}
-
-.cart-name a {
-    text-decoration: none;
-    color: black;
-    background-color: black;
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: white;
-}
-
-.cart-icons:hover .cart-name a {
-    display: block;
-
-}
 
 
 
