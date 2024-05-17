@@ -262,7 +262,7 @@ select {
     // padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 30px;
     justify-items: center;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -281,79 +281,52 @@ select {
     background: url(/image/Featured-Products/shoose\ 1.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
+ 
 
 }
+.products-1:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.whislist {
+    position: relative;
+    top: 60.5%;
+    display: none;
+    
+}
+.products-1:hover .whislist {
+    display: block;
+}
 
-.box {
-    display: flex;
-    // justify-content: space-around;
-    // padding: 20px;
-    align-items: end;
-    padding-bottom: 10px;
+
+.whislist a button {
+   margin-left: 5%;
+    width: 90%;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 25px;
+   border: 1px solid rgba(0, 0, 0, 0.358);
+
+}
+.whislist a button i {
+    border-color: black;
+    color: rgb(96, 85, 85);
+    font-size: 17px;
+}
+
+.prodcut-btn {
+    padding-top: 10px;
     padding-left: 10px;
 }
 
-
-.box a button {
-    padding: 8px 16px 8px 16px;
-    margin-top: 20px;
-    border-radius: 25px;
-    outline: none;
-    border: 1px solid white;
-    background-color: white;
+.prodcut-btn button {
+    padding: 10px 25px 10px 25px;
+    font-size: 15px;
     cursor: pointer;
-}
-
-.cart-icons {
-    display: none;
-    padding-left: 20px;
-}
-
-.cart-icons a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-
-}
-
-.products-1:hover .cart-icons {
-    display: block;
-}
-
-.products-2:hover .cart-icons {
-    display: block;
-}
-
-.products-3:hover .cart-icons {
-    display: block;
-}
-
-.products-4:hover .cart-icons {
-    display: block;
-}
-
-.products-5:hover .cart-icons {
-    display: block;
-}
-
-.products-6:hover .cart-icons {
-    display: block;
-}
-
-.products-7:hover .cart-icons {
-    display: block;
-}
-
-.products-8:hover .cart-icons {
-    display: block;
-}
-
-.products-9:hover .cart-icons {
-    display: block;
-}
-
-.products-10:hover .cart-icons {
-    display: block;
+    border: none;
+    border-radius: 25px;
 }
 
 .men {
@@ -369,61 +342,133 @@ del {
     opacity: 0.5;
 }
 
+//1 close
+
 .products-2 {
     background: url(/image/Featured-Products/shoose\ 2.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
+.products-2:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-2:hover .whislist {
+    display: block;
+}
+
 
 .products-3 {
     background: url(/image/Featured-Products/product-m-jeans1.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
+}
+.products-3:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-3:hover .whislist {
+    display: block;
 }
 
 .products-4 {
     background: url(/image/Featured-Products/product-w-jeans2.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
 
+.products-4:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-4:hover .whislist {
+    display: block;
+}
 .products-5 {
     background: url(/image/Featured-Products/product-w-jeans3.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
-
+.products-5:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-5:hover .whislist {
+    display: block;
+}
 .products-6 {
     background: url(/image/Featured-Products/f1.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
+}
+.products-6:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-6:hover .whislist {
+    display: block;
 }
 
 .products-7 {
     background: url(/image/Featured-Products/f2.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
+}
+.products-7:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-7:hover .whislist {
+    display: block;
 }
 
 .products-8 {
     background: url(/image/Featured-Products/f3.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
-
+.products-8:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-8:hover .whislist {
+    display: block;
+}
 .products-9 {
     background: url(/image/Featured-Products/f4.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
-
+.products-9:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-9:hover .whislist {
+    display: block;
+}
 .products-10 {
     background: url(/image/Featured-Products/f5.jpg) no-repeat center center/cover;
     width: 250px;
     height: 250px;
     cursor: pointer;
-
 }
+
+.products-10:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.products-10:hover .whislist {
+    display: block;
+}
+
 
 
 .number-container {
