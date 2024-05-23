@@ -276,8 +276,9 @@ select {
 
 }
 .products-1:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .whislist {
     position: relative;
@@ -341,8 +342,9 @@ del {
     cursor: pointer;
 }
 .products-2:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-2:hover .whislist {
     display: block;
@@ -356,8 +358,9 @@ del {
     cursor: pointer;
 }
 .products-3:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-3:hover .whislist {
     display: block;
@@ -371,8 +374,9 @@ del {
 }
 
 .products-4:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-4:hover .whislist {
     display: block;
@@ -384,8 +388,9 @@ del {
     cursor: pointer;
 }
 .products-5:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-5:hover .whislist {
     display: block;
@@ -397,8 +402,9 @@ del {
     cursor: pointer;
 }
 .products-6:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-6:hover .whislist {
     display: block;
@@ -411,8 +417,9 @@ del {
     cursor: pointer;
 }
 .products-7:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-7:hover .whislist {
     display: block;
@@ -425,8 +432,9 @@ del {
     cursor: pointer;
 }
 .products-8:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-8:hover .whislist {
     display: block;
@@ -438,8 +446,9 @@ del {
     cursor: pointer;
 }
 .products-9:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-9:hover .whislist {
     display: block;
@@ -452,8 +461,9 @@ del {
 }
 
 .products-10:hover {
-    transform: scale(1.1);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 .products-10:hover .whislist {
     display: block;
