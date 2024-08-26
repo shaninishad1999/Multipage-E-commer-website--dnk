@@ -262,14 +262,13 @@ select {
     // padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 30px;
     justify-items: center;
     margin-bottom: 20px;
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
 }
-
 
 // 1
 .products-head {
@@ -478,6 +477,8 @@ del {
 .products-10:hover .whislist {
     display: block;
 }
+
+
 
 .number-container {
     display: flex;
@@ -1149,4 +1150,43 @@ del {
 
     // footer close
 
+    .item {
+        height: 50px;
+        width: 50px;
+        // margin-left: 10px;
+        background-color: transparent;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+    
+    
+    
+    }
+    .heading-women p{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .showing-result {
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading-women h1 {
+        font-size: 40px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+       
+    }
+    .item {
+        height: 50px;
+        width: 50px;
+         margin-left: 0px; 
+        background-color: transparent;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+    }
 }

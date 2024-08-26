@@ -1139,5 +1139,14 @@ del {
     }
 
     // footer close
+    .item {
+        height: 50px;
+        width: 50px;
+         margin-left: 0px; 
+        background-color: transparent;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+    }
 
 }

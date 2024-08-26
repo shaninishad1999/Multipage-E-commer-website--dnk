@@ -944,4 +944,13 @@ del {
     width: 100%;
     margin-right: 100px;
   }
+  .item {
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

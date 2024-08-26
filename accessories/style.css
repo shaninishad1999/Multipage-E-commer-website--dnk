@@ -956,4 +956,9 @@ del {
     width: 100%;
     margin-right: 100px;
   }
+  .heading-women h1 {
+    /* font-size: 80px; */
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
